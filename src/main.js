@@ -10,7 +10,7 @@ Vue.config.productionTip = false
 
 new Vue({
   beforeCreate: function () {
-    Vue.prototype.$hostname = 'https://fambask-server.herokuapp.com'; // Sets this as a global variable
+    Vue.prototype.$hostname = 'https://fambask.linush.com/api'; // Sets this as a global variable
     //Vue.prototype.$hostname = 'http://localhost:3000'; // When hosting locally
     //console.log(this.$hostname)
   },
